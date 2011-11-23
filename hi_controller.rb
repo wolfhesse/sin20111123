@@ -1,5 +1,9 @@
+require 'sinatra'
 
+class HiController < Sinatra::Base
 
-class HiController
-
+  get '/hi' do
+   "Hello World!"
+  end
+  
 end
