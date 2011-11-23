@@ -5,6 +5,3 @@ and implementing: http://www.sinatrarb.com/
 controller: HiController
 
 routes: get '/hi'
-
-
-This file was modified by JetBrains RubyMine 3.2.4 for binding GitHub repository
