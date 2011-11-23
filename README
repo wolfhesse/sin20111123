@@ -1,0 +1,8 @@
+
+coming from: http://gembundler.com/sinatra.html
+and implementing: http://www.sinatrarb.com/
+
+controller: HiController
+
+routes: get '/hi'
+
