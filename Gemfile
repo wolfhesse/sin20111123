@@ -1,9 +1,12 @@
-source :rubygems
+# frozen_string_literal: true
 
-gem "sinatra"
+source 'https://rubygems.org'
+
+gem 'haml'
+gem 'sinatra'
 gem 'sinatra-contrib'
 
 group :development do
-  gem "rack"
-  gem "thin"
+  gem 'rack'
+  gem 'thin'
 end
