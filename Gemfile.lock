@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/rack/rack.git
+  revision: bbd2a93f422508c615ae23d007c34b8bfb405b91
+  branch: master
+  specs:
+    rack (2.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,7 +16,6 @@ GEM
       tilt
     multi_json (1.13.1)
     mustermann (1.0.3)
-    rack (2.0.7)
     rack-protection (2.0.7)
       rack
     sinatra (2.0.7)
@@ -36,7 +42,7 @@ PLATFORMS
 
 DEPENDENCIES
   haml
-  rack
+  rack!
   sinatra
   sinatra-contrib
   thin
